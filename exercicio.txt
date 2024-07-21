@@ -1,0 +1,7 @@
+1) Utilizar o Styled Components para converter a estilização do projeto disponibilizado no Material de apoio para uma estilização utilizando o Styled Components. Estilizar:
+
+    formulário
+    cabeçalho
+    hero
+    componente "Vaga"
+    componente "ListaVagas".
