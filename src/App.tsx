@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
 import { defaultTheme } from './themes/default'
-import GlobalStyle from './styles/global'
+import GlobalStyle, { Container } from './styles'
 
 import './global.css'
 
@@ -14,9 +14,9 @@ function App() {
       <GlobalStyle />
       <Header />
       <Hero />
-      <div className="container">
+      <Container>
         <ListaVagas />
-      </div>
+      </Container>
     </ThemeProvider>
   )
 }
