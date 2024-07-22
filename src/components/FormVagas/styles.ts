@@ -15,7 +15,7 @@ export const StyledInput = styled.input`
 `
 
 export const StyledButton = styled.button`
-  background-color: ${(props) => props.theme.corSecundaria};
+  background-color: ${(props) => props.theme.corPrincipal};
   border: 1px solid ${(props) => props.theme.corSecundaria};
   height: 40px;
   padding: 0 16px;
