@@ -6,8 +6,6 @@ import ListaVagas from './containers/ListaVagas'
 import { defaultTheme } from './themes/default'
 import GlobalStyle, { Container } from './styles'
 
-import './global.css'
-
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
